@@ -30,5 +30,10 @@ public class ArrayTests {
     double[] input1 = { -1, -1, 0, 1, 2};
     double average = ArrayExamples.averageWithoutLowest(input1);
     assertEquals(1.0, average, 0.0);
+   
+    double[] input2 = {0, 1, 2, 3};
+    double average2 = ArrayExamples.averageWithoutLowest(input2);
+    assertEquals(2, average2, 0.0);
+
   }
 }
